@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44e31a04-9a13-47ac-9a05-1c0e19665297" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JanFeb24BackendEvening.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AccessModifiers/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntroToOOP/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntroToOOP/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="44e31a04-9a13-47ac-9a05-1c0e19665297" name="Changes" comment="Intro to OOP">
+      <change afterPath="$PROJECT_DIR$/src/Constructors/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Constructors/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DeepVsShallow/Batch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DeepVsShallow/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DeepVsShallow/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DeepVsShallow/ReattemptExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DeepVsShallow/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Static/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Static/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +31,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2mTpDPbwija3wrcGctM30WMgLUr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -45,7 +45,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Client.executor": "Run",
+    "Application.Constructors.Client.executor": "Run",
+    "Application.DeepVsShallow.Client.executor": "Debug",
     "Application.Main.executor": "Run",
+    "Application.Static.Client.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -58,13 +61,39 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Static.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IntroToOOP.Client" />
       <module name="JanFeb24BackendEvening" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="IntroToOOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Constructors.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Constructors.Client" />
+      <module name="JanFeb24BackendEvening" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Constructors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeepVsShallow.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DeepVsShallow.Client" />
+      <module name="JanFeb24BackendEvening" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DeepVsShallow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,8 +108,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Static.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Static.Client" />
+      <module name="JanFeb24BackendEvening" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Static.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Static.Client" />
+        <item itemvalue="Application.DeepVsShallow.Client" />
+        <item itemvalue="Application.Constructors.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Main" />
       </list>
@@ -102,12 +147,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727110303674</updated>
-      <workItem from="1727110305034" duration="2922000" />
+      <workItem from="1727110305034" duration="3660000" />
+      <workItem from="1727279297789" duration="2121000" />
+      <workItem from="1727281956892" duration="4016000" />
     </task>
+    <task id="LOCAL-00001" summary="Intro to OOP">
+      <option name="closed" value="true" />
+      <created>1727113293943</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727113293943</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Intro to OOP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intro to OOP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -116,6 +176,16 @@
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DeepVsShallow/Client.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Static/Client.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
