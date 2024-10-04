@@ -9,6 +9,9 @@ public class Client {
         Instructor i = new Instructor();
 
         System.out.println("");
+
+        User x1 = new Instructor();
+        System.out.println(x1.exam.exam_id);
     }
 }
 // new Child() => Child () { call the parent constructor from here }

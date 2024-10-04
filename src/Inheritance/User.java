@@ -5,6 +5,11 @@ public class User {
     private String name;
     private String email;
     private String password;
+    private int x = 10;
+     Exam exam;
+    public int getX() {
+        return x;
+    }
 
     User(){
         System.out.println("User constructor is executing");
@@ -12,6 +17,7 @@ public class User {
         this.name = "temp";
         this.email = "temp@gmail.com";
         this.password = "temp";
+        exam = new Exam(10);
     }
 
     public void login(){

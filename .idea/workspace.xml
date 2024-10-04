@@ -4,44 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44e31a04-9a13-47ac-9a05-1c0e19665297" name="Changes" comment="OOP 2 : Constructors">
-      <change afterPath="$PROJECT_DIR$/src/AbstractClasses/Guest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClasses/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractClasses/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConstructorChaining/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConstructorChaining/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConstructorChaining/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConstructorChaining/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConstructorChaining/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/V1/BankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/V1/BankAPIV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/V1/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/V1/FastTagRecharge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/V1/ICICIBankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/V1/IDFCBankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/V1/PhonePe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/V1/PhonePeLoan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/V1/YesBankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/Vo/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/Vo/FastTagRecharge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/Vo/ICICIBankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/Vo/PhonePe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/Vo/PhonePeLoan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/Vo/YesBankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Polymorphism/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Polymorphism/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Polymorphism/MethodOverloading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Polymorphism/MethodOverriding/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Polymorphism/MethodOverriding/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Polymorphism/MethodOverriding/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Polymorphism/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Polymorphism/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Polymorphism/UserUtility.java" afterDir="false" />
+    <list default="true" id="44e31a04-9a13-47ac-9a05-1c0e19665297" name="Changes" comment="OOP 4 : Interfaces">
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Temp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheritance/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheritance/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Instructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheritance/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,9 +45,10 @@
     "Application.ConstructorChaining.Client.executor": "Run",
     "Application.Constructors.Client.executor": "Run",
     "Application.DeepVsShallow.Client.executor": "Debug",
-    "Application.Inheritance.Client.executor": "Debug",
+    "Application.Inheritance.Client.executor": "Run",
     "Application.Interfaces.Client.executor": "Run",
     "Application.Interfaces.V1.Client.executor": "Run",
+    "Application.IntroToThreads.Client.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Static.Client.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -100,7 +70,7 @@
       <recent name="$PROJECT_DIR$/src/Polymorphism" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Interfaces.V1.Client">
+  <component name="RunManager" selected="Application.IntroToThreads.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Polymorphism.MethodOverriding.Client" />
       <module name="JanFeb24BackendEvening" />
@@ -153,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Static.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Static.Client" />
+    <configuration name="IntroToThreads.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IntroToThreads.Client" />
       <module name="JanFeb24BackendEvening" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Static.*" />
+          <option name="PATTERN" value="IntroToThreads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntroToThreads.Client" />
+        <item itemvalue="Application.Inheritance.Client" />
         <item itemvalue="Application.Interfaces.V1.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.ConstructorChaining.Client" />
-        <item itemvalue="Application.Inheritance.Client" />
-        <item itemvalue="Application.Static.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +166,9 @@
       <workItem from="1727279297789" duration="2121000" />
       <workItem from="1727281956892" duration="4730000" />
       <workItem from="1727452579288" duration="6344000" />
-      <workItem from="1727712397237" duration="4469000" />
+      <workItem from="1727712397237" duration="6632000" />
+      <workItem from="1727951965634" duration="1469000" />
+      <workItem from="1728061704703" duration="1253000" />
     </task>
     <task id="LOCAL-00001" summary="Intro to OOP">
       <option name="closed" value="true" />
@@ -214,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727286335185</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="OOP 4 : Interfaces">
+      <option name="closed" value="true" />
+      <created>1727718747844</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727718747844</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +203,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Intro to OOP" />
     <MESSAGE value="OOP 2 : Constructors" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOP 2 : Constructors" />
+    <MESSAGE value="OOP 4 : Interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOP 4 : Interfaces" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
