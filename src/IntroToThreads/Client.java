@@ -12,10 +12,10 @@ public class Client {
 //        t.start();
 //        doSomething();
 
-        for(int i = 1; i <= 100; i++){
-            if( i == 80){
-                System.out.println();
-            }
+        for(int i = 1; i <= 1000000; i++){
+//            if( i == 80){
+//                System.out.println();
+//            }
             NumberPrinter numberPrinter = new NumberPrinter(i);
             Thread t1 = new Thread(numberPrinter);
             t1.start();
