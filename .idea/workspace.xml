@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44e31a04-9a13-47ac-9a05-1c0e19665297" name="Changes" comment="OOP 4 : Interfaces">
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtractor/Adder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtractor/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtractor/Subtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtractor/Value.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MergeSortThreaded/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MergeSortThreaded/Sorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThreadPool/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThreadPool/NumberPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdderSubtractatorSynchronizedMethods/Adder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdderSubtractatorSynchronizedMethods/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdderSubtractatorSynchronizedMethods/Subtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdderSubtractatorSynchronizedMethods/Value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdderSubtractorLock/Adder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdderSubtractorLock/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdderSubtractorLock/Subtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdderSubtractorLock/Value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdderSubtractorSynchronizedKeyword/Adder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdderSubtractorSynchronizedKeyword/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdderSubtractorSynchronizedKeyword/Subtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdderSubtractorSynchronizedKeyword/Value.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntroToThreads/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroToThreads/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +48,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AdderSubtractorLock.Client.executor": "Run",
+    "Application.AdderSubtractorSynchronizedKeyword.Client.executor": "Run",
     "Application.Client.executor": "Run",
     "Application.ConstructorChaining.Client.executor": "Run",
     "Application.Constructors.Client.executor": "Run",
@@ -60,7 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mohitsharma/JanFeb24BackendEvening/src/Interfaces/Vo",
+    "last_opened_file_path": "/Users/mohitsharma/JanFeb24BackendEvening/src/AdderSubtractatorSynchronizedMethods",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,46 +77,50 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/AdderSubtractatorSynchronizedMethods" />
+      <recent name="$PROJECT_DIR$/src/AdderSubtractorSynchronizedKeyword" />
+      <recent name="$PROJECT_DIR$/src/AdderSubtractorLock" />
       <recent name="$PROJECT_DIR$/src/Interfaces/Vo" />
       <recent name="$PROJECT_DIR$/src/Polymorphism" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="AdderSubtractorLock" />
       <recent name="ThreadPool" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.AdderSubtractorSynchronizedKeyword.Client">
+    <configuration name="AdderSubtractorLock.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AdderSubtractorLock.Client" />
+      <module name="JanFeb24BackendEvening" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AdderSubtractorLock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdderSubtractorSynchronizedKeyword.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AdderSubtractorSynchronizedKeyword.Client" />
+      <module name="JanFeb24BackendEvening" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AdderSubtractorSynchronizedKeyword.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AdderSubtractor.Client" />
       <module name="JanFeb24BackendEvening" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="AdderSubtractor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Inheritance.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Inheritance.Client" />
-      <module name="JanFeb24BackendEvening" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IntroToThreads.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IntroToThreads.Client" />
-      <module name="JanFeb24BackendEvening" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="IntroToThreads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdderSubtractorSynchronizedKeyword.Client" />
+        <item itemvalue="Application.AdderSubtractorLock.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.MergeSortThreaded.Client" />
         <item itemvalue="Application.ThreadPool.Client" />
-        <item itemvalue="Application.IntroToThreads.Client" />
-        <item itemvalue="Application.Inheritance.Client" />
       </list>
     </recent_temporary>
   </component>
