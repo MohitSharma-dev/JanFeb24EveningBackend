@@ -4,19 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44e31a04-9a13-47ac-9a05-1c0e19665297" name="Changes" comment="OOP 4 : Interfaces">
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtractatorSynchronizedMethods/Adder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtractatorSynchronizedMethods/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtractatorSynchronizedMethods/Subtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtractatorSynchronizedMethods/Value.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtractorLock/Adder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtractorLock/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtractorLock/Subtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtractorLock/Value.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtractorSynchronizedKeyword/Adder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtractorSynchronizedKeyword/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtractorSynchronizedKeyword/Subtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdderSubtractorSynchronizedKeyword/Value.java" afterDir="false" />
+    <list default="true" id="44e31a04-9a13-47ac-9a05-1c0e19665297" name="Changes" comment="MultiThreading - 3">
+      <change afterPath="$PROJECT_DIR$/src/ProducerConsumer/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProducerConsumer/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProducerConsumer/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProducerConsumer/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProducerConsumerSemaphore/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProducerConsumerSemaphore/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProducerConsumerSemaphore/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProducerConsumerSemaphore/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,12 +56,14 @@
     "Application.IntroToThreads.Client.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MergeSortThreaded.Client.executor": "Run",
+    "Application.ProducerConsumer.Client.executor": "Run",
+    "Application.ProducerConsumerSemaphore.Client.executor": "Run",
     "Application.Static.Client.executor": "Run",
     "Application.ThreadPool.Client.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mohitsharma/JanFeb24BackendEvening/src/AdderSubtractatorSynchronizedMethods",
+    "last_opened_file_path": "/Users/mohitsharma/JanFeb24BackendEvening/src/ProducerConsumerSemaphore",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,18 +75,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ProducerConsumerSemaphore" />
       <recent name="$PROJECT_DIR$/src/AdderSubtractatorSynchronizedMethods" />
       <recent name="$PROJECT_DIR$/src/AdderSubtractorSynchronizedKeyword" />
       <recent name="$PROJECT_DIR$/src/AdderSubtractorLock" />
       <recent name="$PROJECT_DIR$/src/Interfaces/Vo" />
-      <recent name="$PROJECT_DIR$/src/Polymorphism" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="AdderSubtractorLock" />
       <recent name="ThreadPool" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AdderSubtractorSynchronizedKeyword.Client">
+  <component name="RunManager" selected="Application.ProducerConsumerSemaphore.Client">
     <configuration name="AdderSubtractorLock.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AdderSubtractorLock.Client" />
       <module name="JanFeb24BackendEvening" />
@@ -128,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortThreaded.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeSortThreaded.Client" />
+    <configuration name="ProducerConsumerSemaphore.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProducerConsumerSemaphore.Client" />
       <module name="JanFeb24BackendEvening" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MergeSortThreaded.*" />
+          <option name="PATTERN" value="ProducerConsumerSemaphore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPool.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadPool.Client" />
+    <configuration name="ProducerConsumer.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProducerConsumer.Client" />
       <module name="JanFeb24BackendEvening" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadPool.*" />
+          <option name="PATTERN" value="ProducerConsumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProducerConsumerSemaphore.Client" />
+        <item itemvalue="Application.ProducerConsumer.Client" />
         <item itemvalue="Application.AdderSubtractorSynchronizedKeyword.Client" />
         <item itemvalue="Application.AdderSubtractorLock.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.MergeSortThreaded.Client" />
-        <item itemvalue="Application.ThreadPool.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +187,7 @@
       <workItem from="1728061704703" duration="2076000" />
       <workItem from="1728063854578" duration="54000" />
       <workItem from="1728316690492" duration="4809000" />
+      <workItem from="1728920740393" duration="4007000" />
     </task>
     <task id="LOCAL-00001" summary="Intro to OOP">
       <option name="closed" value="true" />
@@ -214,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727718747844</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="MultiThreading - 3">
+      <option name="closed" value="true" />
+      <created>1728495898675</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728495898675</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +231,8 @@
     <MESSAGE value="Intro to OOP" />
     <MESSAGE value="OOP 2 : Constructors" />
     <MESSAGE value="OOP 4 : Interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOP 4 : Interfaces" />
+    <MESSAGE value="MultiThreading - 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="MultiThreading - 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
