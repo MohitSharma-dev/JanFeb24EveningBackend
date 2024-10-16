@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44e31a04-9a13-47ac-9a05-1c0e19665297" name="Changes" comment="MultiThreading - 3">
-      <change afterPath="$PROJECT_DIR$/src/ProducerConsumer/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProducerConsumer/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProducerConsumer/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProducerConsumer/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProducerConsumerSemaphore/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProducerConsumerSemaphore/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProducerConsumerSemaphore/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProducerConsumerSemaphore/Store.java" afterDir="false" />
+    <list default="true" id="44e31a04-9a13-47ac-9a05-1c0e19665297" name="Changes" comment="MultiThreading - 4 : Semaphores">
+      <change afterPath="$PROJECT_DIR$/src/Generics/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/GenericPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics/UserUtility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +49,7 @@
     "Application.ConstructorChaining.Client.executor": "Run",
     "Application.Constructors.Client.executor": "Run",
     "Application.DeepVsShallow.Client.executor": "Debug",
+    "Application.Generics.Client.executor": "Run",
     "Application.Inheritance.Client.executor": "Run",
     "Application.Interfaces.Client.executor": "Run",
     "Application.Interfaces.V1.Client.executor": "Run",
@@ -86,7 +86,7 @@
       <recent name="ThreadPool" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProducerConsumerSemaphore.Client">
+  <component name="RunManager" selected="Application.Generics.Client">
     <configuration name="AdderSubtractorLock.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AdderSubtractorLock.Client" />
       <module name="JanFeb24BackendEvening" />
@@ -113,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AdderSubtractor.Client" />
+    <configuration name="Generics.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics.Client" />
       <module name="JanFeb24BackendEvening" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AdderSubtractor.*" />
+          <option name="PATTERN" value="Generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Generics.Client" />
         <item itemvalue="Application.ProducerConsumerSemaphore.Client" />
         <item itemvalue="Application.ProducerConsumer.Client" />
         <item itemvalue="Application.AdderSubtractorSynchronizedKeyword.Client" />
         <item itemvalue="Application.AdderSubtractorLock.Client" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +187,8 @@
       <workItem from="1728061704703" duration="2076000" />
       <workItem from="1728063854578" duration="54000" />
       <workItem from="1728316690492" duration="4809000" />
-      <workItem from="1728920740393" duration="4007000" />
+      <workItem from="1728920740393" duration="4625000" />
+      <workItem from="1729094197322" duration="5930000" />
     </task>
     <task id="LOCAL-00001" summary="Intro to OOP">
       <option name="closed" value="true" />
@@ -221,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728495898675</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="MultiThreading - 4 : Semaphores">
+      <option name="closed" value="true" />
+      <created>1728927429345</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728927429345</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +241,8 @@
     <MESSAGE value="OOP 2 : Constructors" />
     <MESSAGE value="OOP 4 : Interfaces" />
     <MESSAGE value="MultiThreading - 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="MultiThreading - 3" />
+    <MESSAGE value="MultiThreading - 4 : Semaphores" />
+    <option name="LAST_COMMIT_MESSAGE" value="MultiThreading - 4 : Semaphores" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
