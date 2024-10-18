@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44e31a04-9a13-47ac-9a05-1c0e19665297" name="Changes" comment="MultiThreading - 4 : Semaphores">
-      <change afterPath="$PROJECT_DIR$/src/Generics/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/GenericPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/UserUtility.java" afterDir="false" />
+    <list default="true" id="44e31a04-9a13-47ac-9a05-1c0e19665297" name="Changes" comment="Generics">
+      <change afterPath="$PROJECT_DIR$/src/Collections/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/StudentAttendaceComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/StudentPSPComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,38 +38,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AdderSubtractorLock.Client.executor": "Run",
-    "Application.AdderSubtractorSynchronizedKeyword.Client.executor": "Run",
-    "Application.Client.executor": "Run",
-    "Application.ConstructorChaining.Client.executor": "Run",
-    "Application.Constructors.Client.executor": "Run",
-    "Application.DeepVsShallow.Client.executor": "Debug",
-    "Application.Generics.Client.executor": "Run",
-    "Application.Inheritance.Client.executor": "Run",
-    "Application.Interfaces.Client.executor": "Run",
-    "Application.Interfaces.V1.Client.executor": "Run",
-    "Application.IntroToThreads.Client.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MergeSortThreaded.Client.executor": "Run",
-    "Application.ProducerConsumer.Client.executor": "Run",
-    "Application.ProducerConsumerSemaphore.Client.executor": "Run",
-    "Application.Static.Client.executor": "Run",
-    "Application.ThreadPool.Client.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mohitsharma/JanFeb24BackendEvening/src/ProducerConsumerSemaphore",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/mohitsharma/JanFeb24BackendEvening/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AdderSubtractorLock.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AdderSubtractorSynchronizedKeyword.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConstructorChaining.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Constructors.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeepVsShallow.Client.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Generics.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Inheritance.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Interfaces.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Interfaces.V1.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntroToThreads.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSortThreaded.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProducerConsumer.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProducerConsumerSemaphore.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Static.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPool.Client.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mohitsharma/JanFeb24BackendEvening/src/ProducerConsumerSemaphore&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/mohitsharma/JanFeb24BackendEvening/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ProducerConsumerSemaphore" />
@@ -86,13 +83,13 @@
       <recent name="ThreadPool" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Generics.Client">
-    <configuration name="AdderSubtractorLock.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AdderSubtractorLock.Client" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="AdderSubtractorSynchronizedKeyword.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AdderSubtractorSynchronizedKeyword.Client" />
       <module name="JanFeb24BackendEvening" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AdderSubtractorLock.*" />
+          <option name="PATTERN" value="AdderSubtractorSynchronizedKeyword.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdderSubtractorSynchronizedKeyword.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AdderSubtractorSynchronizedKeyword.Client" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.Client" />
       <module name="JanFeb24BackendEvening" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AdderSubtractorSynchronizedKeyword.*" />
+          <option name="PATTERN" value="Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Generics.Client" />
         <item itemvalue="Application.ProducerConsumerSemaphore.Client" />
         <item itemvalue="Application.ProducerConsumer.Client" />
         <item itemvalue="Application.AdderSubtractorSynchronizedKeyword.Client" />
-        <item itemvalue="Application.AdderSubtractorLock.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +185,8 @@
       <workItem from="1728063854578" duration="54000" />
       <workItem from="1728316690492" duration="4809000" />
       <workItem from="1728920740393" duration="4625000" />
-      <workItem from="1729094197322" duration="5930000" />
+      <workItem from="1729094197322" duration="6566000" />
+      <workItem from="1729266442036" duration="5668000" />
     </task>
     <task id="LOCAL-00001" summary="Intro to OOP">
       <option name="closed" value="true" />
@@ -230,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728927429345</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Generics">
+      <option name="closed" value="true" />
+      <created>1729100494413</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729100494413</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +248,8 @@
     <MESSAGE value="OOP 4 : Interfaces" />
     <MESSAGE value="MultiThreading - 3" />
     <MESSAGE value="MultiThreading - 4 : Semaphores" />
-    <option name="LAST_COMMIT_MESSAGE" value="MultiThreading - 4 : Semaphores" />
+    <MESSAGE value="Generics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generics" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
