@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44e31a04-9a13-47ac-9a05-1c0e19665297" name="Changes" comment="Generics">
-      <change afterPath="$PROJECT_DIR$/src/Collections/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collections/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collections/StudentAttendaceComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collections/StudentPSPComparator.java" afterDir="false" />
+    <list default="true" id="44e31a04-9a13-47ac-9a05-1c0e19665297" name="Changes" comment="Collection Framework">
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LambdasAndStreams/AnotherInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LambdasAndStreams/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LambdasAndStreams/ComparisonClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LambdasAndStreams/MathematicalOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LambdasAndStreams/StreamsClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LambdasAndStreams/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,19 +48,23 @@
     &quot;Application.AdderSubtractorLock.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.AdderSubtractorSynchronizedKeyword.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComparisonClient.executor&quot;: &quot;Run&quot;,
     &quot;Application.ConstructorChaining.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.Constructors.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.DeepVsShallow.Client.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ExceptionHandling.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.Generics.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.Inheritance.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.Interfaces.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.Interfaces.V1.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.IntroToThreads.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdasAndStreams.Client.executor&quot;: &quot;Debug&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.MergeSortThreaded.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.ProducerConsumer.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.ProducerConsumerSemaphore.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.Static.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamsClient.executor&quot;: &quot;Run&quot;,
     &quot;Application.ThreadPool.Client.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -83,20 +92,7 @@
       <recent name="ThreadPool" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="AdderSubtractorSynchronizedKeyword.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AdderSubtractorSynchronizedKeyword.Client" />
-      <module name="JanFeb24BackendEvening" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AdderSubtractorSynchronizedKeyword.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ExceptionHandling.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Collections.Client" />
       <module name="JanFeb24BackendEvening" />
@@ -110,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Generics.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generics.Client" />
+    <configuration name="ComparisonClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LambdasAndStreams.ComparisonClient" />
       <module name="JanFeb24BackendEvening" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Generics.*" />
+          <option name="PATTERN" value="LambdasAndStreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerConsumerSemaphore.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProducerConsumerSemaphore.Client" />
+    <configuration name="ExceptionHandling.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExceptionHandling.Client" />
       <module name="JanFeb24BackendEvening" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ProducerConsumerSemaphore.*" />
+          <option name="PATTERN" value="ExceptionHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +132,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerConsumer.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProducerConsumer.Client" />
+    <configuration name="LambdasAndStreams.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LambdasAndStreams.Client" />
       <module name="JanFeb24BackendEvening" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ProducerConsumer.*" />
+          <option name="PATTERN" value="LambdasAndStreams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamsClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LambdasAndStreams.StreamsClient" />
+      <module name="JanFeb24BackendEvening" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LambdasAndStreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExceptionHandling.Client" />
+        <item itemvalue="Application.ComparisonClient" />
+        <item itemvalue="Application.StreamsClient" />
+        <item itemvalue="Application.LambdasAndStreams.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Generics.Client" />
-        <item itemvalue="Application.ProducerConsumerSemaphore.Client" />
-        <item itemvalue="Application.ProducerConsumer.Client" />
-        <item itemvalue="Application.AdderSubtractorSynchronizedKeyword.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +196,10 @@
       <workItem from="1728920740393" duration="4625000" />
       <workItem from="1729094197322" duration="6566000" />
       <workItem from="1729266442036" duration="5668000" />
+      <workItem from="1729273785270" duration="1836000" />
+      <workItem from="1729520547386" duration="8207000" />
+      <workItem from="1729698413276" duration="4657000" />
+      <workItem from="1729703309220" duration="855000" />
     </task>
     <task id="LOCAL-00001" summary="Intro to OOP">
       <option name="closed" value="true" />
@@ -236,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729100494413</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Collection Framework">
+      <option name="closed" value="true" />
+      <created>1729273822533</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729273822538</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +270,8 @@
     <MESSAGE value="MultiThreading - 3" />
     <MESSAGE value="MultiThreading - 4 : Semaphores" />
     <MESSAGE value="Generics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generics" />
+    <MESSAGE value="Collection Framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collection Framework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
