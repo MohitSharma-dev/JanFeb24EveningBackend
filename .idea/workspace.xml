@@ -4,16 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44e31a04-9a13-47ac-9a05-1c0e19665297" name="Changes" comment="Collection Framework">
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/UserNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LambdasAndStreams/AnotherInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LambdasAndStreams/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LambdasAndStreams/ComparisonClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LambdasAndStreams/MathematicalOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LambdasAndStreams/StreamsClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LambdasAndStreams/Student.java" afterDir="false" />
+    <list default="true" id="44e31a04-9a13-47ac-9a05-1c0e19665297" name="Changes" comment="Exception Handling">
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V0/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V1/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V1/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V1/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V1/Sparrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V2/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V2/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V2/FlyingBird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V2/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V2/Sparrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V3/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V3/Dancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V3/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V3/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V3/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V3/Sparrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V4/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V4/Dancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V4/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V4/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V4/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V4/Pigeon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V4/Sparrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V4/Vulture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V5/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V5/Dancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V5/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V5/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V5/HighFlying.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V5/LowFlying.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V5/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V5/Pigeon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V5/Sparrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V5/Vulture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V6/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V6/Dancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V6/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V6/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V6/FlyingBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V6/HighFlying.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V6/LowFlying.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V6/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V6/Pigeon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V6/Sparrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/SOLID/V6/Vulture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +60,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -43,51 +79,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AdderSubtractorLock.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AdderSubtractorSynchronizedKeyword.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ComparisonClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConstructorChaining.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Constructors.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeepVsShallow.Client.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ExceptionHandling.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Generics.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Inheritance.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Interfaces.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Interfaces.V1.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IntroToThreads.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LambdasAndStreams.Client.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeSortThreaded.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProducerConsumer.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProducerConsumerSemaphore.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Static.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamsClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadPool.Client.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mohitsharma/JanFeb24BackendEvening/src/ProducerConsumerSemaphore&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/mohitsharma/JanFeb24BackendEvening/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AdderSubtractorLock.Client.executor": "Run",
+    "Application.AdderSubtractorSynchronizedKeyword.Client.executor": "Run",
+    "Application.Client.executor": "Run",
+    "Application.ComparisonClient.executor": "Run",
+    "Application.ConstructorChaining.Client.executor": "Run",
+    "Application.Constructors.Client.executor": "Run",
+    "Application.DeepVsShallow.Client.executor": "Debug",
+    "Application.ExceptionHandling.Client.executor": "Run",
+    "Application.Generics.Client.executor": "Run",
+    "Application.Inheritance.Client.executor": "Run",
+    "Application.Interfaces.Client.executor": "Run",
+    "Application.Interfaces.V1.Client.executor": "Run",
+    "Application.IntroToThreads.Client.executor": "Run",
+    "Application.LambdasAndStreams.Client.executor": "Debug",
+    "Application.Main.executor": "Run",
+    "Application.MergeSortThreaded.Client.executor": "Run",
+    "Application.ProducerConsumer.Client.executor": "Run",
+    "Application.ProducerConsumerSemaphore.Client.executor": "Run",
+    "Application.Static.Client.executor": "Run",
+    "Application.StreamsClient.executor": "Run",
+    "Application.ThreadPool.Client.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mohitsharma/JanFeb24BackendEvening/src/BackendLLD2/SOLID/V6",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/mohitsharma/JanFeb24BackendEvening/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/ProducerConsumerSemaphore" />
-      <recent name="$PROJECT_DIR$/src/AdderSubtractatorSynchronizedMethods" />
-      <recent name="$PROJECT_DIR$/src/AdderSubtractorSynchronizedKeyword" />
-      <recent name="$PROJECT_DIR$/src/AdderSubtractorLock" />
-      <recent name="$PROJECT_DIR$/src/Interfaces/Vo" />
+      <recent name="$PROJECT_DIR$/src/BackendLLD2/SOLID/V7DependencyInjection" />
+      <recent name="$PROJECT_DIR$/src/BackendLLD2/SOLID/V6" />
+      <recent name="$PROJECT_DIR$/src/BackendLLD2/SOLID/V5" />
+      <recent name="$PROJECT_DIR$/src/BackendLLD2/SOLID/V4" />
+      <recent name="$PROJECT_DIR$/src/BackendLLD2/SOLID/V3" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="BackendLLD2.SOLID.V1" />
       <recent name="AdderSubtractorLock" />
       <recent name="ThreadPool" />
     </key>
@@ -199,7 +236,8 @@
       <workItem from="1729273785270" duration="1836000" />
       <workItem from="1729520547386" duration="8207000" />
       <workItem from="1729698413276" duration="4657000" />
-      <workItem from="1729703309220" duration="855000" />
+      <workItem from="1729703309220" duration="1479000" />
+      <workItem from="1730912012241" duration="1125000" />
     </task>
     <task id="LOCAL-00001" summary="Intro to OOP">
       <option name="closed" value="true" />
@@ -257,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729273822538</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Exception Handling">
+      <option name="closed" value="true" />
+      <created>1729704192286</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729704192286</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +317,8 @@
     <MESSAGE value="MultiThreading - 4 : Semaphores" />
     <MESSAGE value="Generics" />
     <MESSAGE value="Collection Framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collection Framework" />
+    <MESSAGE value="Exception Handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exception Handling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
