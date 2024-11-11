@@ -65,4 +65,8 @@ public class Student {
     public void setUniversity(String university) {
         this.university = university;
     }
+
+    public static StudentBuilder getBuilder(){
+        return new StudentBuilder();
+    }
 }

@@ -21,7 +21,8 @@ public class Client {
 //        s.setEmail("abc");
 //        s.setName("Mohit");
 
-        StudentBuilder studentBuilder = new StudentBuilder();
+//        StudentBuilder studentBuilder = new StudentBuilder();
+        StudentBuilder studentBuilder = Student.getBuilder();
         studentBuilder.setAge(25);
         studentBuilder.setName("John");
         studentBuilder.setEmail("john@gmail.com");
