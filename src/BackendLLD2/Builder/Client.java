@@ -22,10 +22,11 @@ public class Client {
 //        s.setName("Mohit");
 
 //        StudentBuilder studentBuilder = new StudentBuilder();
-        StudentBuilder studentBuilder = Student.getBuilder();
-        studentBuilder.setAge(25);
-        studentBuilder.setName("John");
-        studentBuilder.setEmail("john@gmail.com");
+        StudentBuilder studentBuilder =
+                Student.getBuilder()
+                    .setAge(25)
+                    .setName("John")
+                    .setEmail("john@gmail.com");
 
         Student st = new Student(studentBuilder);
     }
