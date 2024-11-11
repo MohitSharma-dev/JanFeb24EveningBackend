@@ -5,3 +5,8 @@ public class HighFlying implements FlyingBehaviour{
         System.out.println("Flying High");
     }
 }
+
+
+// A <- B
+
+// A x = new B();

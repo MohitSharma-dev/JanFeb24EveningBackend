@@ -3,6 +3,10 @@ package BackendLLD2.SOLID.V7DependencyInjection;
 public class Eagle extends Bird implements Flyable {
     private FlyingBehaviour fb;
 
+    Eagle(){
+        this.fb = new HighFlying();
+    }
+
     Eagle(FlyingBehaviour fb){
         this.fb = fb;
     }
