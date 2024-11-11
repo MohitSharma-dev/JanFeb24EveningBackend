@@ -22,12 +22,15 @@ public class Client {
 //        s.setName("Mohit");
 
 //        StudentBuilder studentBuilder = new StudentBuilder();
-        StudentBuilder studentBuilder =
+        Student student =
                 Student.getBuilder()
                     .setAge(25)
                     .setName("John")
-                    .setEmail("john@gmail.com");
+                    .setEmail("john@gmail.com")
+                    .build();
 
-        Student st = new Student(studentBuilder);
+//        Student st = new Student(new StudentBuilder());
     }
 }
+
+
