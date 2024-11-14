@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44e31a04-9a13-47ac-9a05-1c0e19665297" name="Changes" comment="LLD 2 : Builder , added chaining to the methods">
+    <list default="true" id="44e31a04-9a13-47ac-9a05-1c0e19665297" name="Changes" comment="LLD 2 : Builder , final implementation">
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/PrototypeandRegistry/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/PrototypeandRegistry/IntelligentStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/PrototypeandRegistry/Prototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/PrototypeandRegistry/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/PrototypeandRegistry/StudentRegistry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackendLLD2/Builder/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackendLLD2/Builder/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackendLLD2/Builder/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackendLLD2/Builder/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackendLLD2/Builder/StudentBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackendLLD2/Builder/StudentBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +198,8 @@
       <workItem from="1729698413276" duration="4657000" />
       <workItem from="1729703309220" duration="1479000" />
       <workItem from="1730912012241" duration="2864000" />
-      <workItem from="1731341322064" duration="2762000" />
+      <workItem from="1731341322064" duration="4982000" />
+      <workItem from="1731600904722" duration="1428000" />
     </task>
     <task id="LOCAL-00001" summary="Intro to OOP">
       <option name="closed" value="true" />
@@ -294,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731342516251</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="LLD 2 : Builder , final implementation">
+      <option name="closed" value="true" />
+      <created>1731344342496</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1731344342496</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +324,8 @@
     <MESSAGE value="LLD 2 : Builder V0" />
     <MESSAGE value="LLD 2 : Builder , added getBuilder method" />
     <MESSAGE value="LLD 2 : Builder , added chaining to the methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="LLD 2 : Builder , added chaining to the methods" />
+    <MESSAGE value="LLD 2 : Builder , final implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="LLD 2 : Builder , final implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
