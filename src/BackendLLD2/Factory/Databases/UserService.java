@@ -14,11 +14,6 @@ public class UserService {
     }
 
     public void createUser(User user) {
-        Query q = null;
-        if(database instanceof Mysql){
-            q = new SQLQuery();
-        } else if (database instanceof Mongodb){
-            q = new NoSQLQuery();
-        }
+        Query q = QueryFactory.getQueryByDatabase(database);
     }
 }
