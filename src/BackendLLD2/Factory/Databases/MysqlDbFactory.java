@@ -1,19 +1,22 @@
 package BackendLLD2.Factory.Databases;
 
 import BackendLLD2.Factory.Databases.Queries.Query;
-import BackendLLD2.Factory.Databases.Queries.SQLQuery;
 import BackendLLD2.Factory.Databases.Transactions.Transaction;
 import BackendLLD2.Factory.Databases.Updators.Updator;
 
-public class PGSql implements Database{
-
+public class MysqlDbFactory implements DatabaseFactory {
     @Override
-    public void getVersion() {
-
+    public Updator createUpdator() {
+        return null;
     }
 
     @Override
-    public DatabaseFactory createDatabaseFactory() {
-        return new PGSqlDBFactory();
+    public Query createQuery() {
+        return null;
+    }
+
+    @Override
+    public Transaction createTransaction() {
+        return null;
     }
 }
