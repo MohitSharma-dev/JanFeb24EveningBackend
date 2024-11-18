@@ -4,7 +4,7 @@ public class IntelligentStudent extends Student{
     private int iq;
 
     IntelligentStudent(String name, int age, int iq) {
-        super(name, age);
+        super(name, age, "");
         this.iq = iq;
     }
 

@@ -67,7 +67,7 @@ public class Student {
         return new StudentBuilder();
     }
 
-    private static class StudentBuilder {
+    public static class StudentBuilder {
         //    we can add all the attributes here which we want to at creation of the object
         private String name;
         private int age;

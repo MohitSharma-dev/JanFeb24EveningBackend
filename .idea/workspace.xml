@@ -4,23 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44e31a04-9a13-47ac-9a05-1c0e19665297" name="Changes" comment="LLD 2 : Factory : Databases V1">
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Databases/DatabaseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Databases/MongoDbFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Databases/MysqlDbFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Databases/PGSqlDBFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Databases/Transactions/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Databases/Transactions/TransactionA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Databases/Transactions/TransactionB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Databases/Updators/EagerUpdator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Databases/Updators/LazyUpdator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Databases/Updators/Updator.java" afterDir="false" />
+    <list default="true" id="44e31a04-9a13-47ac-9a05-1c0e19665297" name="Changes" comment="LLD 2 : Factory : Databases Abstract Factory">
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V0/BankAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V0/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V0/FastTagRecharge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V0/ICICIBankAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V0/PhonePe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V0/PhonePeLoan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V0/YesBankAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V1/BankAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V1/BankAPIAdapterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V1/FastTagRecharge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V1/ICICIBankAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V1/ICICIBankAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V1/PhonePe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V1/PhonePeLoan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V1/YesBankAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V1/YesBankAPIAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Databases/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Databases/DBFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/Android.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/AndroidUIComponentFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/Button/AndroidButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/Button/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/Button/IOSButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/Dropdown/AndroidDropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/Dropdown/Dropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/Dropdown/IOSDropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/IOS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/IOSUIComponentFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/Menu/AndroidMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/Menu/IOSMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/Menu/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/Platform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/PlatformFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/UIComponentFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackendLLD2/Factory/Databases/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Databases/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackendLLD2/Factory/Databases/Mongodb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Databases/Mongodb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackendLLD2/Factory/Databases/Mysql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Databases/Mysql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackendLLD2/Factory/Databases/PGSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Databases/PGSql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackendLLD2/Factory/Databases/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Databases/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackendLLD2/Builder/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackendLLD2/Builder/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackendLLD2/PrototypeandRegistry/IntelligentStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackendLLD2/PrototypeandRegistry/IntelligentStudent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,49 +72,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AdderSubtractorLock.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AdderSubtractorSynchronizedKeyword.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ComparisonClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConstructorChaining.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Constructors.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeepVsShallow.Client.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ExceptionHandling.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Generics.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Inheritance.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Interfaces.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Interfaces.V1.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IntroToThreads.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LambdasAndStreams.Client.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeSortThreaded.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProducerConsumer.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProducerConsumerSemaphore.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Static.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamsClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadPool.Client.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mohitsharma/JanFeb24BackendEvening/src/BackendLLD2/SOLID/V7DependencyInjection&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/mohitsharma/JanFeb24BackendEvening/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AdderSubtractorLock.Client.executor": "Run",
+    "Application.AdderSubtractorSynchronizedKeyword.Client.executor": "Run",
+    "Application.BackendLLD2.Factory.Platforms.Client.executor": "Run",
+    "Application.Client.executor": "Run",
+    "Application.ComparisonClient.executor": "Run",
+    "Application.ConstructorChaining.Client.executor": "Run",
+    "Application.Constructors.Client.executor": "Run",
+    "Application.DeepVsShallow.Client.executor": "Debug",
+    "Application.ExceptionHandling.Client.executor": "Run",
+    "Application.Generics.Client.executor": "Run",
+    "Application.Inheritance.Client.executor": "Run",
+    "Application.Interfaces.Client.executor": "Run",
+    "Application.Interfaces.V1.Client.executor": "Run",
+    "Application.IntroToThreads.Client.executor": "Run",
+    "Application.LambdasAndStreams.Client.executor": "Debug",
+    "Application.Main.executor": "Run",
+    "Application.MergeSortThreaded.Client.executor": "Run",
+    "Application.ProducerConsumer.Client.executor": "Run",
+    "Application.ProducerConsumerSemaphore.Client.executor": "Run",
+    "Application.Static.Client.executor": "Run",
+    "Application.StreamsClient.executor": "Run",
+    "Application.ThreadPool.Client.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mohitsharma/JanFeb24BackendEvening/src/BackendLLD2/Adapter/V1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/mohitsharma/JanFeb24BackendEvening/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/BackendLLD2/Adapter/V1" />
+      <recent name="$PROJECT_DIR$/src/BackendLLD2/Adapter/V0" />
       <recent name="$PROJECT_DIR$/src/BackendLLD2/SOLID/V7DependencyInjection" />
       <recent name="$PROJECT_DIR$/src/BackendLLD2/SOLID/V6" />
       <recent name="$PROJECT_DIR$/src/BackendLLD2/SOLID/V5" />
-      <recent name="$PROJECT_DIR$/src/BackendLLD2/SOLID/V4" />
-      <recent name="$PROJECT_DIR$/src/BackendLLD2/SOLID/V3" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="BackendLLD2.SOLID.V1" />
@@ -99,13 +123,13 @@
       <recent name="ThreadPool" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExceptionHandling.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.Client" />
+  <component name="RunManager" selected="Application.BackendLLD2.Factory.Platforms.Client">
+    <configuration name="BackendLLD2.Factory.Platforms.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BackendLLD2.Factory.Platforms.Client" />
       <module name="JanFeb24BackendEvening" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collections.*" />
+          <option name="PATTERN" value="BackendLLD2.Factory.Platforms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BackendLLD2.Factory.Platforms.Client" />
         <item itemvalue="Application.ExceptionHandling.Client" />
         <item itemvalue="Application.ComparisonClient" />
         <item itemvalue="Application.StreamsClient" />
         <item itemvalue="Application.LambdasAndStreams.Client" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +234,10 @@
       <workItem from="1730912012241" duration="2864000" />
       <workItem from="1731341322064" duration="4982000" />
       <workItem from="1731600904722" duration="2538000" />
-      <workItem from="1731688279081" duration="1138000" />
+      <workItem from="1731688279081" duration="3122000" />
+      <workItem from="1731747462232" duration="1000" />
+      <workItem from="1731897617815" duration="68000" />
+      <workItem from="1731945840605" duration="866000" />
     </task>
     <task id="LOCAL-00001" summary="Intro to OOP">
       <option name="closed" value="true" />
@@ -340,7 +367,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731688742064</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="LLD 2 : Factory : Databases Abstract Factory">
+      <option name="closed" value="true" />
+      <created>1731689513292</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1731689513292</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +398,8 @@
     <MESSAGE value="LLD 2 : Prototype" />
     <MESSAGE value="LLD 2 : Factory : Databases V0" />
     <MESSAGE value="LLD 2 : Factory : Databases V1" />
-    <option name="LAST_COMMIT_MESSAGE" value="LLD 2 : Factory : Databases V1" />
+    <MESSAGE value="LLD 2 : Factory : Databases Abstract Factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="LLD 2 : Factory : Databases Abstract Factory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
