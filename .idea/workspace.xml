@@ -4,46 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44e31a04-9a13-47ac-9a05-1c0e19665297" name="Changes" comment="LLD 2 : Factory : Databases Abstract Factory">
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V0/BankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V0/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V0/FastTagRecharge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V0/ICICIBankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V0/PhonePe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V0/PhonePeLoan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V0/YesBankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V1/BankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V1/BankAPIAdapterFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V1/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V1/FastTagRecharge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V1/ICICIBankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V1/ICICIBankAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V1/PhonePe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V1/PhonePeLoan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V1/YesBankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Adapter/V1/YesBankAPIAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Databases/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Databases/DBFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/Android.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/AndroidUIComponentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/Button/AndroidButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/Button/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/Button/IOSButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/Dropdown/AndroidDropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/Dropdown/Dropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/Dropdown/IOSDropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/IOS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/IOSUIComponentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/Menu/AndroidMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/Menu/IOSMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/Menu/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/Platform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/PlatformFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Factory/Platforms/UIComponentFactory.java" afterDir="false" />
+    <list default="true" id="44e31a04-9a13-47ac-9a05-1c0e19665297" name="Changes" comment="LLD 2 : Adapter">
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Decorator/BeverageDecorator/Addon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Decorator/BeverageDecorator/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Decorator/BeverageDecorator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Decorator/BeverageDecorator/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Decorator/BeverageDecorator/HouseBlend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Decorator/BeverageDecorator/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Decorator/BeverageDecorator/Mocha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Decorator/BeverageDecorator/Whip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Decorator/LoggerDecorator/BasicLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Decorator/LoggerDecorator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Decorator/LoggerDecorator/ErrorLogDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Decorator/LoggerDecorator/InfoLogDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Decorator/LoggerDecorator/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Decorator/LoggerDecorator/LoggerDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Decorator/LoggerDecorator/TimeStampLogDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackendLLD2/Builder/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackendLLD2/Builder/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackendLLD2/PrototypeandRegistry/IntelligentStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackendLLD2/PrototypeandRegistry/IntelligentStudent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +53,7 @@
   "keyToString": {
     "Application.AdderSubtractorLock.Client.executor": "Run",
     "Application.AdderSubtractorSynchronizedKeyword.Client.executor": "Run",
+    "Application.BackendLLD2.Decorator.LoggerDecorator.Client.executor": "Run",
     "Application.BackendLLD2.Factory.Platforms.Client.executor": "Run",
     "Application.Client.executor": "Run",
     "Application.ComparisonClient.executor": "Run",
@@ -123,13 +101,39 @@
       <recent name="ThreadPool" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BackendLLD2.Factory.Platforms.Client">
+  <component name="RunManager" selected="Application.BackendLLD2.Decorator.LoggerDecorator.Client">
+    <configuration name="BackendLLD2.Decorator.LoggerDecorator.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BackendLLD2.Decorator.LoggerDecorator.Client" />
+      <module name="JanFeb24BackendEvening" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BackendLLD2.Decorator.LoggerDecorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BackendLLD2.Factory.Platforms.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BackendLLD2.Factory.Platforms.Client" />
       <module name="JanFeb24BackendEvening" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="BackendLLD2.Factory.Platforms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BackendLLD2.Decorator.BeverageDecorator.Client" />
+      <module name="JanFeb24BackendEvening" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BackendLLD2.Decorator.BeverageDecorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,39 +167,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdasAndStreams.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LambdasAndStreams.Client" />
-      <module name="JanFeb24BackendEvening" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LambdasAndStreams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamsClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LambdasAndStreams.StreamsClient" />
-      <module name="JanFeb24BackendEvening" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LambdasAndStreams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BackendLLD2.Decorator.LoggerDecorator.Client" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.BackendLLD2.Factory.Platforms.Client" />
         <item itemvalue="Application.ExceptionHandling.Client" />
         <item itemvalue="Application.ComparisonClient" />
-        <item itemvalue="Application.StreamsClient" />
-        <item itemvalue="Application.LambdasAndStreams.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +215,8 @@
       <workItem from="1731688279081" duration="3122000" />
       <workItem from="1731747462232" duration="1000" />
       <workItem from="1731897617815" duration="68000" />
-      <workItem from="1731945840605" duration="866000" />
+      <workItem from="1731945840605" duration="1734000" />
+      <workItem from="1732119384977" duration="2485000" />
     </task>
     <task id="LOCAL-00001" summary="Intro to OOP">
       <option name="closed" value="true" />
@@ -375,7 +354,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731689513292</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="LLD 2 : Adapter">
+      <option name="closed" value="true" />
+      <created>1731946949947</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1731946949947</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +386,8 @@
     <MESSAGE value="LLD 2 : Factory : Databases V0" />
     <MESSAGE value="LLD 2 : Factory : Databases V1" />
     <MESSAGE value="LLD 2 : Factory : Databases Abstract Factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="LLD 2 : Factory : Databases Abstract Factory" />
+    <MESSAGE value="LLD 2 : Adapter" />
+    <option name="LAST_COMMIT_MESSAGE" value="LLD 2 : Adapter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
