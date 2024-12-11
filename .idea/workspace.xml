@@ -4,29 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44e31a04-9a13-47ac-9a05-1c0e19665297" name="Changes" comment="Decorator">
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Observer/CurrStatsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Observer/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Observer/ForecastDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Observer/WeatherData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Observer/WeatherStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Strategy/GoogleMaps/BikePathCalculatorStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Strategy/GoogleMaps/CarPathCalculatorStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Strategy/GoogleMaps/GoogleMaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Strategy/GoogleMaps/PathCalculatorStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Strategy/GoogleMaps/PathCalculatorStrategyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Strategy/GoogleMaps/TravelMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Strategy/GoogleMaps/WalkPathCalculatorStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Strategy/Sorter/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Strategy/Sorter/DataProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Strategy/Sorter/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Strategy/Sorter/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Strategy/Sorter/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Strategy/Sorter/SortingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackendLLD2/Strategy/Sorter/SortingStrategyFactory.java" afterDir="false" />
+    <list default="true" id="44e31a04-9a13-47ac-9a05-1c0e19665297" name="Changes" comment="Strategy &amp; Observer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackendLLD2/Observer/CurrStatsDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackendLLD2/Observer/CurrStatsDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackendLLD2/Observer/WeatherStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackendLLD2/Observer/WeatherStation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,46 +37,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AdderSubtractorLock.Client.executor": "Run",
-    "Application.AdderSubtractorSynchronizedKeyword.Client.executor": "Run",
-    "Application.BackendLLD2.Decorator.LoggerDecorator.Client.executor": "Run",
-    "Application.BackendLLD2.Factory.Platforms.Client.executor": "Run",
-    "Application.BackendLLD2.Strategy.Sorter.Client.executor": "Run",
-    "Application.Client.executor": "Run",
-    "Application.ComparisonClient.executor": "Run",
-    "Application.ConstructorChaining.Client.executor": "Run",
-    "Application.Constructors.Client.executor": "Run",
-    "Application.DeepVsShallow.Client.executor": "Debug",
-    "Application.ExceptionHandling.Client.executor": "Run",
-    "Application.Generics.Client.executor": "Run",
-    "Application.Inheritance.Client.executor": "Run",
-    "Application.Interfaces.Client.executor": "Run",
-    "Application.Interfaces.V1.Client.executor": "Run",
-    "Application.IntroToThreads.Client.executor": "Run",
-    "Application.LambdasAndStreams.Client.executor": "Debug",
-    "Application.Main.executor": "Run",
-    "Application.MergeSortThreaded.Client.executor": "Run",
-    "Application.ProducerConsumer.Client.executor": "Run",
-    "Application.ProducerConsumerSemaphore.Client.executor": "Run",
-    "Application.Static.Client.executor": "Run",
-    "Application.StreamsClient.executor": "Run",
-    "Application.ThreadPool.Client.executor": "Run",
-    "Application.WeatherStation.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mohitsharma/JanFeb24BackendEvening/src/BackendLLD2/Adapter/V1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/mohitsharma/JanFeb24BackendEvening/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AdderSubtractorLock.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AdderSubtractorSynchronizedKeyword.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BackendLLD2.Decorator.LoggerDecorator.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BackendLLD2.Factory.Platforms.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BackendLLD2.Strategy.Sorter.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComparisonClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConstructorChaining.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Constructors.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeepVsShallow.Client.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ExceptionHandling.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Generics.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Inheritance.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Interfaces.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Interfaces.V1.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntroToThreads.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdasAndStreams.Client.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSortThreaded.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProducerConsumer.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProducerConsumerSemaphore.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Static.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamsClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPool.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WeatherStation.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mohitsharma/JanFeb24BackendEvening/src/BackendLLD2/Adapter/V1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/mohitsharma/JanFeb24BackendEvening/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/BackendLLD2/Adapter/V1" />
@@ -226,7 +208,8 @@
       <workItem from="1731897617815" duration="68000" />
       <workItem from="1731945840605" duration="1734000" />
       <workItem from="1732119384977" duration="5712000" />
-      <workItem from="1732291357930" duration="2686000" />
+      <workItem from="1732291357930" duration="4061000" />
+      <workItem from="1732555302029" duration="1086000" />
     </task>
     <task id="LOCAL-00001" summary="Intro to OOP">
       <option name="closed" value="true" />
@@ -380,7 +363,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732121887772</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Strategy &amp; Observer">
+      <option name="closed" value="true" />
+      <created>1732295748635</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1732295748636</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +397,8 @@
     <MESSAGE value="LLD 2 : Factory : Databases Abstract Factory" />
     <MESSAGE value="LLD 2 : Adapter" />
     <MESSAGE value="Decorator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Decorator" />
+    <MESSAGE value="Strategy &amp; Observer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Strategy &amp; Observer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

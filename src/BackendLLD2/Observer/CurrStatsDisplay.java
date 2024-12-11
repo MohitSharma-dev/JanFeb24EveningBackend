@@ -27,7 +27,7 @@ public class CurrStatsDisplay implements Observer, Display{
         subject.registerObserver(this);
     }
 
-    public void unsubsribe(Subject subject){
+    public void unsubscribe(Subject subject){
         subject.removeObserver(this);
     }
 }
