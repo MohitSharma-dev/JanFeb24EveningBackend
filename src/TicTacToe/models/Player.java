@@ -6,6 +6,13 @@ public abstract class Player {
     private PlayerType playerType;
     private Symbol symbol;
 
+    public Player(Integer id, String name, PlayerType playerType, Symbol symbol) {
+        this.id = id;
+        this.name = name;
+        this.playerType = playerType;
+        this.symbol = symbol;
+    }
+
     public Integer getId() {
         return id;
     }

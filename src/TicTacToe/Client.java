@@ -1,10 +1,8 @@
 package TicTacToe;
 
 import TicTacToe.controllers.GameController;
-import TicTacToe.models.Bot;
-import TicTacToe.models.GameState;
-import TicTacToe.models.HumanPlayer;
-import TicTacToe.models.Player;
+import TicTacToe.models.*;
+import TicTacToe.strategies.RowWinningStrategy;
 import TicTacToe.strategies.WinningStrategy;
 
 import java.util.ArrayList;
@@ -18,31 +16,34 @@ public class Client {
 //        List of players
 //        winning strategies
         List<Player> players = new ArrayList<>();
-        players.add(new HumanPlayer());
-        players.add(new Bot());
+        players.add(new HumanPlayer(1 , "Mohit" , new Symbol('X')));
+        players.add(new Bot(2 , "Botty", new Symbol('O'), BotDifficultyLevel.EASY));
 
         int size = 3;
 
-        List<WinningStrategy> winningStrategies = new ArrayList<>();
+//        Hey User do you want row winning rules ?
 
-        gameController.startGame(
+        List<WinningStrategy> winningStrategies = new ArrayList<>();
+        winningStrategies.add(new RowWinningStrategy());
+
+        Game game = gameController.startGame(
                 size,
                 players,
                 winningStrategies
         );
-
-        while(gameController.getGameState().equals(GameState.IN_PROGRESS)){
-            gameController.display();
-            gameController.makeMove();
+        gameController.display(game);
+        while(!gameController.getGameState(game).equals(GameState.IN_PROGRESS)){
+            gameController.display(game);
+            gameController.makeMove(game);
 //            makeMove
 //            take the input to make the move
 //            update the game state if required
 //            update the turn
         }
 
-        if(gameController.getGameState().equals(GameState.SUCCESS)){
-            System.out.println("Winner: " + gameController.getWinner().getName());
-        } else if(gameController.getGameState().equals(GameState.DRAW)){
+        if(gameController.getGameState(game).equals(GameState.SUCCESS)){
+            System.out.println("Winner: " + gameController.getWinner(game).getName());
+        } else if(gameController.getGameState(game).equals(GameState.DRAW)){
             System.out.println("Game has ended in a draw");
         }
     }
