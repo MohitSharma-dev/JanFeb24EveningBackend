@@ -7,8 +7,10 @@ import TicTacToe.strategies.WinningStrategy;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Client {
+    private static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         GameController gameController = new GameController();
 //        to start the game , what are the things that are required
@@ -35,6 +37,13 @@ public class Client {
         while(gameController.getGameState(game).equals(GameState.IN_PROGRESS)){
             gameController.makeMove(game);
             gameController.display(game);
+            System.out.println("Do you want to Undo? [Y/N]");
+            String undoAnswer = scanner.nextLine();
+            if(undoAnswer.equals("Y")){
+                gameController.undo(game);
+                System.out.println("Undo successful");
+                gameController.display(game);
+            }
 //            makeMove
 //            take the input to make the move
 //            update the game state if required

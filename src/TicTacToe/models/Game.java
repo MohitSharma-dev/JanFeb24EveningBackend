@@ -190,6 +190,29 @@ public class Game {
             );
         }
     }
+
+    public void undo(){
+        if(moves.size() == 0){
+            System.out.println("There is nothing to Undo!");
+            return;
+        }
+
+        Move lastMove = moves.get(moves.size() - 1);
+        moves.remove(moves.size() - 1);
+
+        lastMove.getCell().setCellState(CellState.EMPTY);
+        lastMove.getCell().setSymbol(null);
+//        (A - B) % N = (A - B + N) % N
+        nextPlayerIndex--;
+        nextPlayerIndex = (nextPlayerIndex + players.size()) % players.size();
+
+        for(WinningStrategy winningStrategy : winningStrategies){
+            winningStrategy.handleUndo(board, lastMove);
+        }
+
+        setGameState(GameState.IN_PROGRESS);
+        setWinner(null);
+    }
 }
 
 // Requirement

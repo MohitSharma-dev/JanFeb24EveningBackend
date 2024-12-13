@@ -11,4 +11,9 @@ public class ColWinningStrategy implements WinningStrategy {
         System.out.println("Col Winner");
         return true;
     }
+
+    @Override
+    public void handleUndo(Board board, Move move) {
+
+    }
 }
