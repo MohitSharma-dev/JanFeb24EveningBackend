@@ -14,21 +14,22 @@ public class GameController {
             List<Player> players,
             List<WinningStrategy> winningStrategies
     ){
-        return new Game(
-                size,
-                players,
-                winningStrategies
-        );
-
-//        Game.getBuilder().setSize().setPlayers().build();
-//        validations will be there
-//          1. No of players = size - 1
-//          2. All players should have distinct symbols
-//          3. We only have at max One Bot
+        try {
+            return Game
+                    .getBuilder()
+                    .setSize(size)
+                    .setPlayers(players)
+                    .setWinningStrategies(winningStrategies)
+                    .build();
+        } catch (Exception ex){
+            System.out.println(ex.getMessage());
+            System.out.println("Sorry. Please try to start the Game again with valid input");
+        }
+        return null;
     }
 
     public GameState getGameState(Game game){
-        return GameState.IN_PROGRESS;
+        return game.getGameState();
     }
 
     public void display(Game game){
@@ -36,7 +37,7 @@ public class GameController {
     }
 
     public void makeMove(Game game){
-
+        game.makeMove();
     }
 
     public void undo(Game game){
@@ -44,6 +45,6 @@ public class GameController {
     }
 
     public Player getWinner(Game game){
-        return null;
+        return game.getWinner();
     }
 }

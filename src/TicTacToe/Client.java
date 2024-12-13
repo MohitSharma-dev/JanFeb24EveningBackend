@@ -32,9 +32,9 @@ public class Client {
                 winningStrategies
         );
         gameController.display(game);
-        while(!gameController.getGameState(game).equals(GameState.IN_PROGRESS)){
-            gameController.display(game);
+        while(gameController.getGameState(game).equals(GameState.IN_PROGRESS)){
             gameController.makeMove(game);
+            gameController.display(game);
 //            makeMove
 //            take the input to make the move
 //            update the game state if required
@@ -58,3 +58,8 @@ public class Client {
 // checkWinner || draw (After making the move if the game state changes then we should stop the game)
 //      If yes game over
 //      else game continues
+
+
+// Implement the Builder design for Game class
+// makeMove
+// undo
