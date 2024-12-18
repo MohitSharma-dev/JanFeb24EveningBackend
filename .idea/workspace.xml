@@ -4,12 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44e31a04-9a13-47ac-9a05-1c0e19665297" name="Changes" comment="TicTacToe : Stage 3 : Working Game">
+    <list default="true" id="44e31a04-9a13-47ac-9a05-1c0e19665297" name="Changes" comment="TicTacToe : Stage 4 : Undo">
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/controllers/TicketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/dtos/IssueTicketRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/dtos/IssueTicketResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/dtos/ResponseStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/Gate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/GateStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/GateType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/ParkingFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/ParkingFloorStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/ParkingLotStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/ParkingSlot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/ParkingSlotStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/PaymentMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/PaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/SupportedVehicleTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/models/VehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParkingLot/services/TicketService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/controllers/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/models/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/strategies/RowWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/strategies/RowWinningStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/strategies/WinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/strategies/WinningStrategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -215,7 +235,9 @@
       <workItem from="1732555302029" duration="1086000" />
       <workItem from="1733933765571" duration="3604000" />
       <workItem from="1734056474164" duration="11000" />
-      <workItem from="1734101970498" duration="4992000" />
+      <workItem from="1734101970498" duration="5303000" />
+      <workItem from="1734312588566" duration="26000" />
+      <workItem from="1734539778158" duration="2828000" />
     </task>
     <task id="LOCAL-00001" summary="Intro to OOP">
       <option name="closed" value="true" />
@@ -393,7 +415,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734107330673</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="TicTacToe : Stage 4 : Undo">
+      <option name="closed" value="true" />
+      <created>1734109261932</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1734109261932</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +452,8 @@
     <MESSAGE value="Strategy &amp; Observer" />
     <MESSAGE value="TicTacToe : Stage 1" />
     <MESSAGE value="TicTacToe : Stage 3 : Working Game" />
-    <option name="LAST_COMMIT_MESSAGE" value="TicTacToe : Stage 3 : Working Game" />
+    <MESSAGE value="TicTacToe : Stage 4 : Undo" />
+    <option name="LAST_COMMIT_MESSAGE" value="TicTacToe : Stage 4 : Undo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
