@@ -2,9 +2,11 @@ package ParkingLot.models;
 
 import java.util.Date;
 
-public class Ticket extends BaseEntity{
+public class Ticket extends BaseModel {
     private Date entryTime;
     private Gate gate;
+    // Gate will contain the current Operator at the gate
+    // this operator will contain the operator details who was present at the gate when ticket was cut
     private Operator operator;
     private ParkingSlot parkingSlot;
     private Vehicle vehicle;

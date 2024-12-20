@@ -2,7 +2,7 @@ package ParkingLot.models;
 
 import java.util.Date;
 
-public abstract class BaseEntity {
+public abstract class BaseModel {
     private int id;
     private Date createdAt;
     private Date updatedAt;
@@ -31,5 +31,3 @@ public abstract class BaseEntity {
         this.updatedAt = updatedAt;
     }
 }
-
-// Each class can extend this entity

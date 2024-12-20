@@ -1,4 +1,5 @@
 package ParkingLot.models;
 
-public class PaymentMode {
+public enum PaymentMode {
+    CASH, CARD , UPI
 }
